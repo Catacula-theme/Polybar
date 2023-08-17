@@ -24,6 +24,4 @@ res = res.replace("USD", "$")
 res = res.replace("EUR", "€")
 res = res.replace("BTC", "")
 
-file.write(res)
-ex = file.read()
-sys.stdout.write(ex);
+sys.stdout.write(res);
