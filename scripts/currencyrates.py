@@ -3,6 +3,7 @@
 
 import json,sys,urllib.request
 
+
 if len(sys.argv) != 3:
     print("Usage: ./currencyrates.py comma_separated_currency_list base_currency. Example: ./currencyrates.py usd,eur,btc nok")
     sys.exit()
