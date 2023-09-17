@@ -19,8 +19,8 @@ for c in currencies.split(','):
     res += c.upper() + ":{:,.2f}".format(1/obj[c.upper()]).replace(',',' ')
 
 # some unicode currency code replacement (optional)
-res = res.replace("USD", "$")
-res = res.replace("EUR", "€")
-res = res.replace("BTC", "")
+res = res.replace("USD", "USD")
+res = res.replace("EUR", "EUR")
+res = res.replace("BTC", "BTC")
 
 sys.stdout.write(res);
